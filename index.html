@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="ms" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lemang Periuk Kera & Rendang Ayam Premium</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        heritage: {
+                            gold: '#D4AF37',
+                            'gold-dark': '#AA7C11',
+                            green: '#1E3F20',
+                            'green-light': '#2D5B32',
+                            'green-dark': '#0F2010',
+                            clay: '#8B4513',
+                            cream: '#FCFBF7'
+                        }
+                    },
+                    fontFamily: {
+                        serif: ['Cinzel', 'serif'],
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .gold-gradient-text {
+            background: linear-gradient(135deg, #FFE07D 0%, #D4AF37 50%, #8E6E11 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .hero-bg {
+            background-image: linear-gradient(rgba(15, 32, 16, 0.85), rgba(15, 32, 16, 0.95)), url('https://images.unsplash.com/photo-1543007630-9710e4a00a20?auto=format&fit=crop&q=80&w=1200');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-heritage-cream text-gray-800 font-sans antialiased overflow-x-hidden">
+
+    <!-- Top Promo Banner -->
+    <div class="bg-gradient-to-r from-heritage-green-dark via-heritage-green to-heritage-green-dark text-white py-2 px-4 text-center text-xs md:text-sm font-semibold tracking-wider border-b border-heritage-gold/20">
+        <span class="inline-flex items-center gap-2">
+            <span class="w-2 h-2 rounded-full bg-red-500 animate-ping"></span>
+            🔥 TEMPAHAN AWAL DIBUKA! STOK DAUN PERIUK KERA ASLI SANGAT TERHAD! 🔥
+        </span>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="sticky top-0 z-50 bg-heritage-green-dark/95 backdrop-blur-md border-b border-heritage-gold/10 py-4 px-6 md:px-12 flex justify-between items-center">
+        <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full border border-heritage-gold flex items-center justify-center bg-heritage-green">
+                <span class="font-serif text-heritage-gold font-bold text-lg">LPK</span>
+            </div>
+            <div>
+                <h1 class="font-serif text-white font-extrabold text-sm md:text-base tracking-wider leading-none">LEMANG PERIUK KERA</h1>
+                <p class="text-[10px] text-heritage-gold tracking-widest font-semibold">TRADISI ASLI</p>
+            </div>
+        </div>
+        <nav class="hidden md:flex items-center gap-8">
+            <a href="#kelebihan" class="text-gray-300 hover:text-heritage-gold transition-colors text-sm font-medium">Keunikan</a>
+            <a href="#pakej" class="text-gray-300 hover:text-heritage-gold transition-colors text-sm font-medium">Pakej</a>
+            <a href="#testimoni" class="text-gray-300 hover:text-heritage-gold transition-colors text-sm font-medium">Testimoni</a>
+            <a href="#tempah" class="bg-gradient-to-r from-heritage-gold to-heritage-gold-dark text-heritage-green-dark px-5 py-2 rounded-full text-xs font-bold tracking-wider hover:brightness-110 transition-all shadow-md shadow-heritage-gold/10">TEMPAH SEKARANG</a>
+        </nav>
+        <a href="#tempah" class="md:hidden bg-gradient-to-r from-heritage-gold to-heritage-gold-dark text-heritage-green-dark px-4 py-2 rounded-full text-xs font-bold tracking-wider">TEMPAH</a>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-bg text-white py-16 px-6 md:py-24 md:px-12 flex flex-col items-center text-center relative overflow-hidden">
+        <!-- Floating Elements for Ambience -->
+        <div class="absolute top-10 left-10 opacity-20 hidden md:block">
+            <i class="fa-solid fa-moon text-6xl text-heritage-gold"></i>
+        </div>
+        <div class="absolute bottom-10 right-10 opacity-20 hidden md:block">
+            <i class="fa-solid fa-mosque text-7xl text-heritage-gold"></i>
+        </div>
+
+        <div class="max-w-4xl mx-auto z-10">
+            <!-- Badges -->
+            <div class="inline-flex items-center gap-2 bg-heritage-green/80 border border-heritage-gold/30 rounded-full px-4 py-1.5 text-xs text-heritage-gold font-semibold tracking-wider uppercase mb-6 animate-pulse">
+                <i class="fa-solid fa-seedling"></i> 100% Daun Periuk Kera Asli & Halal
+            </div>
+
+            <!-- Main Heading -->
+            <h2 class="font-serif text-4xl md:text-7xl font-extrabold tracking-wide mb-6 leading-tight">
+                🔥 <span class="gold-gradient-text block mt-2">LEMANG PERIUK KERA</span>
+            </h2>
+
+            <p class="text-lg md:text-2xl text-gray-200 font-medium max-w-2xl mx-auto leading-relaxed mb-8">
+                Nikmat apa lagi yang mahu didustakan? Lemang harum, pulut selembut sutera dengan aroma hutan semula jadi, digandingkan dengan rendang ayam padu! 😋🌿
+            </p>
+
+            <!-- CTA Buttons -->
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
+                <a href="#tempah" class="w-full sm:w-auto px-8 py-4 bg-gradient-to-r from-heritage-gold via-yellow-400 to-heritage-gold-dark text-heritage-green-dark font-extrabold rounded-xl shadow-lg shadow-heritage-gold/20 hover:scale-[1.02] transition-transform flex items-center justify-center gap-3 text-lg">
+                    <i class="fa-solid fa-cart-shopping"></i> Tempah Sekarang (RM25/Set)
+                </a>
+                <a href="#kelebihan" class="w-full sm:w-auto px-8 py-4 bg-white/10 hover:bg-white/15 border border-white/20 text-white font-bold rounded-xl transition-colors flex items-center justify-center gap-2">
+                    Kelebihan Kami <i class="fa-solid fa-arrow-down"></i>
+                </a>
+            </div>
+
+            <!-- Highlights Grid -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8 pt-8 border-t border-white/10 max-w-3xl mx-auto">
+                <div class="text-center p-3">
+                    <p class="text-2xl md:text-3xl font-extrabold text-heritage-gold">½ KG</p>
+                    <p class="text-xs text-gray-400 mt-1">Sajian Lemang Harum</p>
+                </div>
+                <div class="text-center p-3">
+                    <p class="text-2xl md:text-3xl font-extrabold text-heritage-gold">1 Set</p>
+                    <p class="text-xs text-gray-400 mt-1">Termasuk Rendang Ayam Padu</p>
+                </div>
+                <div class="text-center p-3">
+                    <p class="text-2xl md:text-3xl font-extrabold text-heritage-gold">100%</p>
+                    <p class="text-xs text-gray-400 mt-1">Resipi Tradisional Asli</p>
+                </div>
+                <div class="text-center p-3">
+                    <p class="text-2xl md:text-3xl font-extrabold text-heritage-gold">RM25</p>
+                    <p class="text-xs text-gray-400 mt-1">Harga Sangat Berbaloi</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kelebihan Section -->
+    <section id="kelebihan" class="py-20 px-6 md:px-12 max-w-6xl mx-auto">
+        <div class="text-center mb-16">
+            <h3 class="text-heritage-gold font-serif text-lg tracking-widest font-bold uppercase mb-2">Kenapa Pilih Kami</h3>
+            <h2 class="text-3xl md:text-5xl font-serif font-extrabold text-heritage-green-dark">Keunikan Lemang Warisan</h2>
+            <div class="w-24 h-1 bg-heritage-gold mx-auto mt-4 rounded-full"></div>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+            <!-- Card 1 -->
+            <div class="bg-white p-8 rounded-2xl shadow-xl shadow-heritage-green-dark/5 border border-heritage-gold/10 hover:border-heritage-gold/40 transition-all flex flex-col items-center text-center">
+                <div class="w-16 h-16 bg-heritage-green/10 rounded-2xl flex items-center justify-center text-heritage-green text-3xl mb-6">
+                    <i class="fa-solid fa-leaf"></i>
+                </div>
+                <h4 class="font-serif text-xl font-bold text-heritage-green-dark mb-3">Daun Periuk Kera Asli</h4>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Setiap lemang dibalut dan dimasak secara tradisional dengan daun periuk kera hutan yang terpilih bagi mengekalkan aroma dan rasa autentik yang tiada tandingan.
+                </p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="bg-white p-8 rounded-2xl shadow-xl shadow-heritage-green-dark/5 border border-heritage-gold/10 hover:border-heritage-gold/40 transition-all flex flex-col items-center text-center">
+                <div class="w-16 h-16 bg-heritage-green/10 rounded-2xl flex items-center justify-center text-heritage-green text-3xl mb-6">
+                    <i class="fa-solid fa-drumstick-bite"></i>
+                </div>
+                <h4 class="font-serif text-xl font-bold text-heritage-green-dark mb-3">Rendang Ayam Padu</h4>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Dipadankan bersama rendang ayam berempah pekat yang dimasak perlahan hingga dagingnya empuk dan meresap rasa manis, pedas, dan gurih secara sempurna.
+                </p>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="bg-white p-8 rounded-2xl shadow-xl shadow-heritage-green-dark/5 border border-heritage-gold/10 hover:border-heritage-gold/40 transition-all flex flex-col items-center text-center">
+                <div class="w-16 h-16 bg-heritage-green/10 rounded-2xl flex items-center justify-center text-heritage-green text-3xl mb-6">
+                    <i class="fa-solid fa-clock-rotate-left"></i>
+                </div>
+                <h4 class="font-serif text-xl font-bold text-heritage-green-dark mb-3">Semakin Sukar Ditemui</h4>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Makanan warisan yang semakin lama semakin sukar dicari. Ini adalah peluang anda untuk mengimbau kenangan tradisional yang amat bernilai!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promo Combo Card & Price -->
+    <section id="pakej" class="bg-heritage-green-dark text-white py-20 px-6 md:px-12 relative overflow-hidden">
+        <!-- Decoration background -->
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(45,91,50,0.3),transparent_50%)]"></div>
+        
+        <div class="max-w-5xl mx-auto relative z-10">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <!-- Visual Box simulating poster presentation -->
+                <div class="bg-gradient-to-br from-heritage-green to-heritage-green-dark p-6 rounded-3xl border border-heritage-gold/20 shadow-2xl relative overflow-hidden">
+                    <div class="absolute -top-12 -left-12 w-40 h-40 bg-heritage-gold/10 rounded-full blur-3xl"></div>
+                    
+                    <div class="relative z-10">
+                        <span class="bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider mb-4 inline-block">Sangat Terhad!</span>
+                        <h3 class="font-serif text-3xl font-extrabold text-heritage-gold mb-4">Pakej Kombo Lemang & Rendang</h3>
+                        
+                        <div class="space-y-4 my-6">
+                            <div class="flex items-center gap-3">
+                                <i class="fa-solid fa-circle-check text-heritage-gold"></i>
+                                <span>½ kg Lemang Periuk Kera Asli</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <i class="fa-solid fa-circle-check text-heritage-gold"></i>
+                                <span>1 Portion Rendang Ayam Tradisional (Padu!)</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <i class="fa-solid fa-circle-check text-heritage-gold"></i>
+                                <span>Tekstur Pulut Lembut & Berlemak</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <i class="fa-solid fa-circle-check text-heritage-gold"></i>
+                                <span>Aroma Daun Periuk Kera Yang Harum</span>
+                            </div>
+                        </div>
+
+                        <div class="border-t border-white/10 pt-6 mt-6 flex items-baseline gap-4">
+                            <span class="text-sm text-gray-400">Harga Sebenar: <span class="line-through">RM35</span></span>
+                            <div class="flex items-baseline gap-1">
+                                <span class="text-heritage-gold font-bold text-lg">RM</span>
+                                <span class="text-white text-5xl font-extrabold">25</span>
+                                <span class="text-sm text-gray-400 ml-1">/ ½kg set</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sales Copy and Persuasion -->
+                <div>
+                    <h3 class="text-heritage-gold font-serif text-lg tracking-widest font-bold uppercase mb-2">TAWARAN ISTIMEWA</h3>
+                    <h2 class="text-3xl md:text-5xl font-serif font-extrabold mb-6">Nikmati Keunikan Rasa Sebenar</h2>
+                    <p class="text-gray-300 leading-relaxed mb-6">
+                        Setiap set lemang periuk kera kami dimasak mengikut kaedah tradisional yang diwarisi turun-temurun. Keseimbangan rasa pulut yang berlemak diserikan dengan keharuman daun periuk kera liar, menjadikannya santapan agung bersama rendang ayam berempah pekat.
+                    </p>
+                    <div class="bg-white/5 border border-white/10 p-5 rounded-2xl flex items-start gap-4 mb-8">
+                        <span class="text-2xl mt-1">⚠️</span>
+                        <div>
+                            <h4 class="font-bold text-white mb-1">Amaran Stok!</h4>
+                            <p class="text-sm text-gray-400">Kerana kami menggunakan daun periuk kera asli dari hutan, stok harian adalah amat terhad. Kami menasihati anda membuat tempahan awal sebelum habis terjual!</p>
+                        </div>
+                    </div>
+                    <a href="#tempah" class="inline-block px-8 py-4 bg-gradient-to-r from-heritage-gold to-heritage-gold-dark text-heritage-green-dark font-extrabold rounded-xl hover:scale-105 transition-all text-center">
+                        SAYA NAK TEMPAH SEKARANG
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Ordering & Calculator Section -->
+    <section id="tempah" class="py-20 px-6 md:px-12 max-w-4xl mx-auto">
+        <div class="bg-white rounded-3xl shadow-2xl border border-heritage-gold/20 overflow-hidden">
+            <!-- Header Card -->
+            <div class="bg-heritage-green-dark p-8 text-center text-white relative">
+                <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(45,91,50,0.4),transparent_70%)]"></div>
+                <h3 class="font-serif text-2xl md:text-3xl font-extrabold text-heritage-gold relative z-10">Borang Tempahan Pintar</h3>
+                <p class="text-gray-300 text-sm mt-2 relative z-10">Pilih kuantiti dan hantar tempahan anda terus ke talian WhatsApp kami</p>
+            </div>
+
+            <div class="p-8 md:p-12 space-y-8">
+                <!-- Step 1: Pilihan Kuantiti -->
+                <div class="space-y-4">
+                    <label class="block text-heritage-green-dark font-bold text-lg flex items-center gap-2">
+                        <span class="w-6 h-6 rounded-full bg-heritage-green text-white flex items-center justify-center text-xs">1</span>
+                        Pilih Kuantiti Tempahan (1 Set = ½kg Lemang + Rendang Ayam)
+                    </label>
+                    <div class="flex items-center gap-4 bg-heritage-green/5 p-4 rounded-xl border border-heritage-green/10 max-w-xs mx-auto justify-between">
+                        <button type="button" onclick="adjustQty(-1)" class="w-12 h-12 rounded-lg bg-white border border-heritage-green/20 text-heritage-green-dark font-extrabold text-xl flex items-center justify-center hover:bg-heritage-green hover:text-white transition-all shadow-sm">
+                            -
+                        </button>
+                        <span id="quantity-display" class="font-extrabold text-3xl text-heritage-green-dark">1</span>
+                        <button type="button" onclick="adjustQty(1)" class="w-12 h-12 rounded-lg bg-white border border-heritage-green/20 text-heritage-green-dark font-extrabold text-xl flex items-center justify-center hover:bg-heritage-green hover:text-white transition-all shadow-sm">
+                            +
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Live Price Calculation -->
+                <div class="bg-heritage-cream rounded-2xl p-6 border border-heritage-gold/20 flex flex-col md:flex-row items-center justify-between gap-4">
+                    <div>
+                        <p class="text-sm text-gray-500 font-medium">Jumlah Set Tempahan:</p>
+                        <p id="summary-set" class="text-lg font-bold text-heritage-green-dark">1 Set (½ kg Lemang + Rendang)</p>
+                    </div>
+                    <div class="text-center md:text-right">
+                        <p class="text-sm text-gray-500 font-medium">Jumlah Harga:</p>
+                        <p class="text-3xl font-extrabold text-heritage-green"><span class="text-lg">RM</span><span id="total-price">25</span></p>
+                    </div>
+                </div>
+
+                <!-- Step 2: Pilih Pegawai Tempahan (Nadia atau Zai) -->
+                <div class="space-y-4">
+                    <label class="block text-heritage-green-dark font-bold text-lg flex items-center gap-2">
+                        <span class="w-6 h-6 rounded-full bg-heritage-green text-white flex items-center justify-center text-xs">2</span>
+                        Pilih Admin WhatsApp Untuk Dihubungi:
+                    </label>
+                    
+                    <div class="grid sm:grid-cols-2 gap-4">
+                        <!-- Nadia Option -->
+                        <label onclick="selectAdmin('nadia')" class="relative border-2 border-heritage-green/10 rounded-2xl p-4 flex items-center justify-between cursor-pointer hover:bg-heritage-green/5 transition-all select-none admin-card" id="card-nadia">
+                            <div class="flex items-center gap-4">
+                                <div class="w-12 h-12 bg-pink-100 rounded-full flex items-center justify-center text-pink-600 text-xl">
+                                    <i class="fa-solid fa-user"></i>
+                                </div>
+                                <div>
+                                    <p class="font-extrabold text-heritage-green-dark">Kak Nadia</p>
+                                    <p class="text-xs text-gray-500">017-7740298</p>
+                                </div>
+                            </div>
+                            <div class="w-6 h-6 rounded-full border-2 border-heritage-green flex items-center justify-center" id="radio-nadia">
+                                <div class="w-3 h-3 rounded-full bg-heritage-green hidden" id="dot-nadia"></div>
+                            </div>
+                        </label>
+
+                        <!-- Zai Option -->
+                        <label onclick="selectAdmin('zai')" class="relative border-2 border-heritage-green/10 rounded-2xl p-4 flex items-center justify-between cursor-pointer hover:bg-heritage-green/5 transition-all select-none admin-card" id="card-zai">
+                            <div class="flex items-center gap-4">
+                                <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 text-xl">
+                                    <i class="fa-solid fa-user"></i>
+                                </div>
+                                <div>
+                                    <p class="font-extrabold text-heritage-green-dark">Abang Zai</p>
+                                    <p class="text-xs text-gray-500">017-3813277</p>
+                                </div>
+                            </div>
+                            <div class="w-6 h-6 rounded-full border-2 border-heritage-green flex items-center justify-center" id="radio-zai">
+                                <div class="w-3 h-3 rounded-full bg-heritage-green hidden" id="dot-zai"></div>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Order Button -->
+                <button type="button" onclick="sendOrder()" class="w-full py-5 bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-xl rounded-2xl shadow-xl hover:shadow-emerald-600/20 hover:scale-[1.01] transition-all flex items-center justify-center gap-3">
+                    <i class="fa-brands fa-whatsapp text-2xl"></i> HANTAR TEMPAHAN SEKARANG
+                </button>
+                <p class="text-center text-xs text-gray-400">Butiran pesanan anda akan dijana dan dibuka secara automatik di aplikasi WhatsApp anda.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimoni Section -->
+    <section id="testimoni" class="bg-heritage-green/5 py-20 px-6 md:px-12">
+        <div class="max-w-5xl mx-auto">
+            <div class="text-center mb-16">
+                <h3 class="text-heritage-gold font-serif text-lg tracking-widest font-bold uppercase mb-2">Maklum Balas Pelanggan</h3>
+                <h2 class="text-3xl md:text-5xl font-serif font-extrabold text-heritage-green-dark">Maklum Balas Yang Jujur</h2>
+                <div class="w-24 h-1 bg-heritage-gold mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-white p-6 md:p-8 rounded-2xl shadow-lg border border-heritage-gold/10">
+                    <div class="flex items-center gap-1 text-heritage-gold mb-4">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-gray-600 italic mb-6">
+                        "Sangat berbaloi! Aromanya memang berbeza dari lemang biasa. Pulutnya betul-betul lembut dan wangi periuk kera asli. Rendang ayam pun tak kedekut kuah dan sedap gila!"
+                    </p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-10 h-10 bg-heritage-green text-white font-bold rounded-full flex items-center justify-center text-sm">
+                            AH
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-heritage-green-dark text-sm">Ahmad Haziq</h4>
+                            <p class="text-xs text-gray-400">Pelanggan Setia</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="bg-white p-6 md:p-8 rounded-2xl shadow-lg border border-heritage-gold/10">
+                    <div class="flex items-center gap-1 text-heritage-gold mb-4">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-gray-600 italic mb-6">
+                        "Pertama kali rasa lemang periuk kera terus jatuh cinta. Sangat berkrim, manis lemak yang secukup rasa. Rendang ayam pula pekat likat. Sesuai sangat hidang untuk keluarga!"
+                    </p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-10 h-10 bg-heritage-green text-white font-bold rounded-full flex items-center justify-center text-sm">
+                            SN
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-heritage-green-dark text-sm">Siti Nurhaliza</h4>
+                            <p class="text-xs text-gray-400">Penggemar Makanan Tradisional</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-heritage-green-dark text-white pt-16 pb-8 px-6 md:px-12 border-t border-heritage-gold/10">
+        <div class="max-w-5xl mx-auto grid md:grid-cols-3 gap-8 mb-12">
+            <div>
+                <h4 class="font-serif text-lg text-heritage-gold font-extrabold tracking-wider mb-4">LEMANG PERIUK KERA</h4>
+                <p class="text-sm text-gray-400 leading-relaxed mb-4">
+                    Sajian tradisi agung yang diwarisi turun-temurun. Mengutamakan bahan asli premium bagi menjamin rasa dan kualiti yang terbaik.
+                </p>
+                <div class="flex items-center gap-3 text-lg text-heritage-gold">
+                    <a href="#" class="hover:text-white transition-colors"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="hover:text-white transition-colors"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="hover:text-white transition-colors"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+            <div>
+                <h4 class="font-serif text-lg text-heritage-gold font-extrabold tracking-wider mb-4">Pautan Pantas</h4>
+                <ul class="space-y-2 text-sm text-gray-400">
+                    <li><a href="#kelebihan" class="hover:text-white transition-colors">Keunikan Lemang</a></li>
+                    <li><a href="#pakej" class="hover:text-white transition-colors">Pakej Istimewa</a></li>
+                    <li><a href="#tempah" class="hover:text-white transition-colors">Borang Tempahan</a></li>
+                    <li><a href="#testimoni" class="hover:text-white transition-colors">Testimoni Pelanggan</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-serif text-lg text-heritage-gold font-extrabold tracking-wider mb-4">Talian Hubungi</h4>
+                <ul class="space-y-3 text-sm text-gray-400">
+                    <li class="flex items-center gap-2">
+                        <i class="fa-solid fa-phone text-heritage-gold"></i>
+                        <span>Zai: 017-381 3277</span>
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <i class="fa-solid fa-phone text-heritage-gold"></i>
+                        <span>Nadia: 017-774 0298</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <i class="fa-solid fa-location-dot text-heritage-gold mt-1"></i>
+                        <span>Lokasi Penghantaran & COD Tersedia (Sila Hubungi Admin)</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-5xl mx-auto border-t border-white/10 pt-8 text-center text-xs text-gray-500">
+            <p>&copy; 2026 Lemang Periuk Kera & Rendang Ayam Padu. Hak Cipta Terpelihara.</p>
+            <p class="mt-1">Dibuat dengan penuh rasa kasih pada warisan tradisi.</p>
+        </div>
+    </footer>
+
+    <!-- Interactive Logic Script -->
+    <script>
+        // State variables
+        let quantity = 1;
+        const pricePerSet = 25;
+        let selectedAdmin = 'nadia'; // Default admin
+
+        // WhatsApp Phone Numbers
+        const adminPhones = {
+            nadia: '60177740298',
+            zai: '60173813277'
+        };
+
+        // Initialize display
+        function updateDisplay() {
+            document.getElementById('quantity-display').innerText = quantity;
+            document.getElementById('summary-set').innerText = `${quantity} Set (½ kg Lemang + Rendang)`;
+            document.getElementById('total-price').innerText = quantity * pricePerSet;
+        }
+
+        // Adjust Quantity
+        function adjustQty(amount) {
+            quantity += amount;
+            if (quantity < 1) quantity = 1; // Minimal order is 1
+            updateDisplay();
+        }
+
+        // Choose Administrator
+        function selectAdmin(adminId) {
+            selectedAdmin = adminId;
+            
+            // Reset active card classes
+            document.querySelectorAll('.admin-card').forEach(card => {
+                card.classList.remove('border-heritage-green', 'bg-heritage-green/5');
+                card.classList.add('border-heritage-green/10');
+            });
+
+            // Reset radio checks
+            document.getElementById('dot-nadia').classList.add('hidden');
+            document.getElementById('dot-zai').classList.add('hidden');
+
+            // Apply selected styling
+            const selectedCard = document.getElementById(`card-${adminId}`);
+            selectedCard.classList.remove('border-heritage-green/10');
+            selectedCard.classList.add('border-heritage-green', 'bg-heritage-green/5');
+            document.getElementById(`dot-${adminId}`).classList.remove('hidden');
+        }
+
+        // Send Order to WhatsApp
+        function sendOrder() {
+            const totalPrice = quantity * pricePerSet;
+            const message = `Salam, saya nak tempah Lemang Periuk Kera:
+            
+📌 Butiran Tempahan:
+Kuantiti: *${quantity} Set* (Total Lemang: ${quantity * 0.5} kg + Rendang Ayam)
+Jumlah Harga: *RM${totalPrice}*
+
+Sila maklumkan ketersediaan stok & cara penghantaran. Terima kasih!`;
+
+            const encodedMessage = encodeURIComponent(message);
+            const phone = adminPhones[selectedAdmin];
+            const whatsappUrl = `https://wa.me/${phone}?text=${encodedMessage}`;
+            
+            // Open WhatsApp in new tab
+            window.open(whatsappUrl, '_blank');
+        }
+
+        // Auto select on boot
+        window.onload = function() {
+            selectAdmin('nadia');
+            updateDisplay();
+        }
+    </script>
+</body>
+</html>
+
+```
